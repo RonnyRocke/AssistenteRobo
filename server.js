@@ -4,11 +4,11 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 const app = express();
 const PORT = 3000;
 
-app.use(express.static("public"));
+app.use(express.static("."));
 app.use(express.json());
 
 // 🔑 API KEY do OpenRouter
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "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";
 
 // 🤖 Rota de conversa
 app.post("/api/gemini", async (req, res) => {
