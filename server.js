@@ -4,11 +4,11 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 const app = express();
 const PORT = 3000;
 
-app.use(express.static("."));
+app.use(express.static("public"));
 app.use(express.json());
 
 // 🔑 API KEY do OpenRouter
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "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";
 
 // 🤖 Rota de conversa
 app.post("/api/gemini", async (req, res) => {
@@ -20,7 +20,7 @@ app.post("/api/gemini", async (req, res) => {
       headers: {
         "Content-Type": "application/json",
         "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
-        "HTTP-Referer": "http://localhost:3000",
+        // "HTTP-Referer": "http://localhost:3000", (removido)
         "X-Title": "robo-assistente"
       },
       body: JSON.stringify({
