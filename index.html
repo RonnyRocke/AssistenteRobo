@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robô IA Assistente</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="robo-container">
+    <div class="escutando-nuvem" id="nuvem">Escutando...</div>
+    <img id="robo" class="robo" src="assets/spr_robo.gif" />
+  </div>
+
+  <div class="input-area">
+    <input type="text" id="userInput" placeholder="Fale algo ou digite..." />
+    <button onclick="sendText()">Enviar</button>
+    <button onclick="startListening()">🎤</button>
+  </div>
+
+  <!-- Modal da resposta -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close-button">&times;</span>
+      <div id="modalText"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
