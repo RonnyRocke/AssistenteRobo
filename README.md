@@ -18,9 +18,10 @@
 
 ## 📸 Demonstrações visuais
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/47b0df30-627c-44a2-aaa8-e60ef7a9f376" width="400" style="margin-right:20px;" />
-  <img src="assets/chat-resposta-small.png" alt="Exemplo de resposta" width="120" style="margin-left:20px;" />
+  <img src="https://github.com/user-attachments/assets/faff3ecd-dfa6-4af6-b5e2-344061750240" width="400" style="margin-right:20px;" />
+  <img  src="https://github.com/user-attachments/assets/bcb36650-5c16-44e6-841c-e0d288ba837f" alt="Exemplo de resposta" width="400" style="margin-left:20px;" />
 </p>
 
 <p align="center" style="margin-top:15px;">
