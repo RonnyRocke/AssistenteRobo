@@ -8,7 +8,7 @@ app.use(express.static("."));
 app.use(express.json());
 
 // 🔑 API KEY do OpenRouter
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
 // 🤖 Rota de conversa
 app.post("/api/gemini", async (req, res) => {
