@@ -19,12 +19,12 @@
 ## 📸 Demonstrações visuais
 
 <p align="center">
-  <img src="assets/robo-pixel.png" alt="Robô pixelado" width="400" style="margin-right:15px;" />
-  <img src="assets/chat-exemplo.png" alt="Exemplo de resposta" width="400" style="margin-left:15px;" />
+  <img src="https://github.com/user-attachments/assets/faff3ecd-dfa6-4af6-b5e2-344061750240" width="400" style="margin-right:20px;" />
+  <img src="https://github.com/user-attachments/assets/bcb36650-5c16-44e6-841c-e0d288ba837f" alt="Exemplo de resposta" width="400" style="margin-left:20px;" />
 </p>
 
-<p align="center" style="margin-top:10px; font-style: italic; color: #555;">
-  Robô pixelado com interface minimalista e uma resposta gerada pelo modelo meta-llama.
+<p align="center" style="margin-top:15px;">
+  <em>Robô pixelado com sua interface minimalista e uma resposta gerada pelo modelo meta-llama.</em>
 </p>
 
 ---
@@ -52,4 +52,3 @@
 ---
 
 ⭐ Se curtiu, dá aquela estrela no GitHub pra fortalecer!  
-
